@@ -1,0 +1,19 @@
+{
+    "phases": {
+        "install": {
+            "cmds": [
+                "composer install"
+            ]
+        },
+        "build": {
+            "cmds": [
+                "php artisan optimize:clear",
+                "php artisan storage:link",
+                "php artisan migrate --force"
+            ]
+        },
+        "start": {
+            "cmd": "php artisan serve --host=0.0.0.0 --port=8000"
+        }
+    }
+}
