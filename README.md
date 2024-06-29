@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# newsWebsite
+This project is a dynamic news platform built using Laravel, HTML, CSS, and Bootstrap. It offers a comprehensive solution for managing and displaying news articles in a responsive and user-friendly interface.
+
+FEATURES:
+User Authentication: Secure login and registration system for users and administrators.
+Article Management: CRUD operations for news articles, including title, content, images, and publication date.
+Category Management: Organize articles into categories for better navigation.
+Comment System: Allow users to comment on articles, with moderation capabilities.
+Responsive Design: Mobile-friendly layout using Bootstrap for optimal viewing on any device.
+Role-Based Access Control: Different access levels for users, editors, and administrators.
+RESTful APIs: API endpoints for integrating with other services and applications.
+Search Functionality: Efficient search feature for finding articles quickly.
+
+TECHNOLOGIES USED:
+Laravel: PHP framework for building scalable and maintainable web applications.
+HTML: Markup language for creating structured web pages.
+CSS: Styling language for designing aesthetically pleasing web pages.
+Bootstrap: CSS framework for responsive and modern web design.
+Installation
+>>>>>>> 883aa0d67f13eb8411050474e8ae332fbc02fe2d
